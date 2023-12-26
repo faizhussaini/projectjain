@@ -27,14 +27,14 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
-          <span>Faiz Hussaini</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hey! We Are</span>
+          <span>Faiz Tours & Travels</span>
           <span>
-          Salesforce developer skilled in creating custom solutions and optimizing CRM functionality for business success
+          Walk , Run , FLy Juz Dont Stop And Travel The World With Us . Love Uh 
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
-          <button className="button i-button">Hire me</button>
+          <button className="button i-button">BookIt</button>
         </Link>
         {/* social icons */}
         <div className="i-icons">
@@ -63,7 +63,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="SalesForce" text2="Developer" />
+          <FloatinDiv img={crown} text1="Lavish Hotel" text2="Sytran & Drinks" />
         </motion.div>
 
         {/* animation */}
@@ -74,7 +74,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="React" text2="Developer" />
+          <FloatinDiv img={thumbup} text1="Travel Insurance" text2="Wellness & Spa" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

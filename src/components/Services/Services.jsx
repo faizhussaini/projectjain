@@ -24,15 +24,15 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My List Of </span>
-        <span>Skills</span>
+        <span style={{ color: darkMode ? "white" : "" }}>Where Would YOu GO! </span>
+        <span>Let Us Know.</span>
         <spane>
-          "I possess expertise in Apex, Lightning Web Components (LWC), 
+          DO your Travels with Faiz Tours , 
           <br />
-          React, and JavaScript, enabling me to tackle a wide range of development challenges."
+          We Promise best Services With premium care in regionable prices.."
         </spane>
         <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
+          <button className="button s-button">Dld Catalog</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
@@ -46,8 +46,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={" Sketch, Photoshop, Chakra UI,BootStrap,Saas"}
+            heading={"USA"}
+            detail={"Time Square and new York is Calling YOu"}
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +58,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Apex,LWC"}
+            heading={"India"}
+            detail={"Give yourself a treat , with Traditions and Love "}
           />
         </motion.div>
         {/* 3rd */}
@@ -69,10 +69,11 @@ const Services = () => {
           transition={transition}
         >
           <Card
+          
             emoji={Humble}
-            heading={"Personality"}
+            heading={"Singapore"}
             detail={
-              "Adaptability , Teamwork , Leadership , Positive Attitude , Continuous Learning"
+              "Party PARTY & Yes Party , Come And Party @ Singapore "
             }
             color="rgba(252, 166, 31, 0.45)"
           />

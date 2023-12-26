@@ -50,9 +50,24 @@ const Contact = () => {
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="user_name" className="user"  placeholder="Name"/>
+          <input type="text" name="user_name" className="user"  placeholder="How Many Person"/>
+          <input type="date" name="user_name" className="user"  placeholder="Start Date"/>
+          <input type="date" name="user_name" className="user"  placeholder="End Date"/>
           <input type="email" name="user_email" className="user" placeholder="Email"/>
+          <label> Where To:
+            <select>
+              <option>Usa</option>
+              <option>Japan</option>
+              <option>Germany</option>
+              <option>italy</option>
+              <option>malasia</option>
+              <option>china</option>
+              <option>india</option>
+              <option>singapore</option>
+            </select>
+          </label> 
           <textarea name="message" className="user" placeholder="Message"/>
-          <input type="submit" value="Send" className="button"/>
+          <input type="submit" value="Book Now" className="button"/>
           <span>{done && "Thanks for Contacting me"}</span>
           <div
             className="blur c-blur1"

@@ -7,7 +7,7 @@ const navbar = () => {
     <div className="n-wrapper" id="Navbar">
       {/* left */}
       <div className="n-left">
-        <div className="n-name">Faiz</div>
+        <div className="n-name">Faiz Tours</div>
         <Toggle />
       </div>
       {/* right */}
@@ -21,28 +21,37 @@ const navbar = () => {
             </li>
             <li>
               <Link to="services" spy={true} smooth={true}>
-                Services
+                Book
               </Link>
             </li>
             <li>
               <Link to="works" spy={true} smooth={true}>
-                Experience
+                Packages
               </Link>
             </li>
             <li>
               <Link to="portfolio" spy={true} smooth={true}>
-                Portfolio
+                sevices
               </Link>
             </li>
             <li>
               <Link to="testimonial" spy={true} smooth={true}>
-                Testimonial
+                Gallery
+              </Link>
+            </li>
+            <li>
+              <Link to="testimonial" spy={true} smooth={true}>
+                About
               </Link>
             </li>
           </ul>
         </div>
+        
         <Link to="contact" spy={true} smooth={true}>
-        <button className="button n-button">Contact</button>
+        <button className="button n-button">Login</button>
+        </Link>
+        <Link to="contact" spy={true} smooth={true}>
+        <button className="button n-button">Signup</button>
         </Link>
       </div>
     </div>

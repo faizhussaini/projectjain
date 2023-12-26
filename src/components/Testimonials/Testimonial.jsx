@@ -15,31 +15,31 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "Faiz has been a valuable colleague, and I've had the privilege of collaborating with him on numerous React projects. His expertise and support have been instrumental in achieving successful outcomes."
+        "Sunrise over the Taj Mahal with Faiz Tours - a memory etched forever. From the first golden glint to the marble masterpiece emerging from the mist, it was pure magic!"
     },
     {
       img: profilePic2,
       review:
-      "My colleague has been an invaluable resource in our Salesforce development projects, offering guidance and expertise that have greatly contributed to our team's success. His support and knowledge have been crucial in achieving our project goals."
+      "Kerala's lush beauty unveiled by Faiz Tours. From serene backwaters to Ayurvedic bliss, it was a soul-stirring journey. My mind and body feel renewed!"
     },
     {
       img: profilePic3,
       review:
-      "I'm grateful for my colleague's assistance in Salesforce security and flows projects. His guidance has been instrumental in ensuring data protection and optimizing workflow efficiency, leading to successful project outcomes."
+      "Delhi's culinary secrets unlocked by Faiz Tours. From mouthwatering street food to hidden gems, my taste buds tantalised! A foodie's dream come true!"
     },
     {
       img: profilePic4,
       review:
-      "Faiz has been a dedicated colleague, and I've had the pleasure of Working with him on various Salesforce admin projects. Together, we've delivered efficient solutions and enhanced our team's capabilities."
+      "From planning to farewell, Faiz Tours exceeded expectations. Personalized attention and expert advice turned my dream trip into reality."
     },
   ];
 
   return (
     <div className="t-wrapper" id="testimonial">
       <div className="t-heading">
-        <span>People Who Loved My </span>
-        <span>Exceptional Work </span>
-        <span>In Projects...</span>
+        <span>People Who Loved </span>
+        <span>To Travel </span>
+        <span>With Us...</span>
         <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
         <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
 

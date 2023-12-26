@@ -23,21 +23,21 @@ const Works = () => {
           <span style={{ color: darkMode ? "white" : "" }}>
             Here Are
           </span>
-          <span>Tools I Used!</span>
+          <span>Tie Ups!</span>
           <spane>
-            "I have a comprehensive background in Salesforce, 
+            "Be Assured With Our Quality and Plans, 
             
             <br />
-            having served as both an administrator and developer.
+            You Can See That We Deal With Just The Bests Like Our Ties.
            
             
             <br />
-            Additionally, I bring strong skills in React, JavaScript, 
+            Dissapointing You is Not in our History , 
             <br />
-            HTML, and CSS to create robust and user-friendly solutions."
+            Our Care For uh make us the Best in the Market ."
           </spane>
           <Link to="contact" smooth={true} spy={true}>
-            <button className="button s-button">Hire Me</button>
+            <button className="button s-button">Book Now</button>
           </Link>
           <div
             className="blur s-blur1"
